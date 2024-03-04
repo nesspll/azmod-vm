@@ -21,17 +21,17 @@ variable "vm_machine_name" {
 variable "resource_group_name" {
   description = "Name of the resource group"
   type        = string
-  default = null
+  default = ""
 }
 
 variable "resource_group_location" {
   description = "Location of the Resource Group"
   type        = string
-  default = null
+  default = ""
 }
 
 variable "environment" {
   description = "Environment name for deployment"
   type        = string
-  default = null
+  default = ""
 }
